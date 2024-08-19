@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./Css/reset.css">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+        <img class="header__logo" src="./Imagenes/Logo.png" alt="Logo alura">
+    </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="presentacion__izquierda">
+            <textarea  id="presentacionTexto" class="presentacion__texto" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="izq__footer">
+                <img src="./Imagenes/Group.png" alt="signo de exclamacion">
+                <p class="img__adv">Solo letras minúsculas y sin acentos</p>
+                <div class="izq__botones">
+                    <button id="botonEncriptar" class="boton__encriptar">Encriptar</button>
+                    <button id="botonDesencriptar" class="boton__desencriptar">Desencriptar</button>
+                </div>
+            </div>
+            </div>
+        
+            <div id="presentacionDerecha" class="presentacion__derecha ajustar">
+            <img id="muñeco" class="muñeco" src="./Imagenes/Muñeco.png" alt="imagen del muñeco">
+            <div class="">
+                <textarea id="mensajeFinal" class="mensaje__final ajustar" placeholder="Ningun mensaje fue 
+                encontrado"></textarea>
+                <p id="derechaInfo" class="derecha__info">Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+            <button id="botonCopiar" class="boton__copiar oculto">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="/Js/script.js"></script>
+</body>
+</html>
